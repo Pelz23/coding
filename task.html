@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Hello Bulma!</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
+    />
+    <style>
+        body{
+            margin-bottom: 400px;
+        }
+        .false{
+            border-left: 9px solid red;
+            padding-left: 13px;
+            font-size: 40px;
+            font-weight: bolder;
+            margin-top: 14px;
+        }
+        .true{
+            border-left: 9px solid green;
+            padding-left: 13px;
+            font-size: 40px;
+            font-weight: bolder;
+            margin-top: 14px;
+        }
+
+    </style>
+  </head>
+  <body>
+
+    <!-- <div class="content">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum blanditiis, molestiae facere unde nam amet quam alias quisquam ea dolorem magnam, distinctio sint deserunt mollitia consequuntur inventore fuga eos nisi.
+
+    </div>
+
+    <button class="button is-danger" id="removeid">Remove Element</button>
+    <button id="body">change body</button> -->
+    <div class="box">
+     
+    </div>
+    <section class="section">
+      <div class="container">
+        <form action="" id="book_form">
+            <h3 class="has-text-centered has-text-weight-bold" id="book">Book Register</h3>
+          <div class="field">
+            <label class="label">Book Name</label>
+            <div class="control">
+              <input class="input" type="text" placeholder="e.g Alex Smith" id="book_name"/>
+            </div>
+          </div>
+
+          <div class="field">
+            <label class="label">Author Name</label>
+            <div class="control">
+              <input
+                class="input"
+                type="text"
+                placeholder="e.g. alexsmith@gmail.com" id="author_name"
+              />
+            </div>
+
+            <div class="field">
+                <label class="label">IsMark</label>
+                <div class="select">
+                    <select name="" id="IsMark" class="select">
+                        <option value="true">True
+                            <option value="false">False</option>
+                        </option>
+
+                    </select>
+                 
+                </div>
+
+            <div class="field">
+                <label class="label">ISBN</label>
+                <div class="control">
+                  <input
+                    class="input"
+                    type="number"
+                    placeholder="e.g. alexsmith@gmail.com" id="isbn"
+                  />
+                </div>
+          </div>
+          <button class="button is-dark is-fullwidth">Store</button>
+        </form>
+        <div id="contain" class="container">
+
+        </div>
+      </div>
+    </section>
+    <script src="task.js"></script>
+  </body>
+</html>
